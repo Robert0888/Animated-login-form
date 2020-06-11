@@ -1,0 +1,70 @@
+body {
+    background: rgb(32, 49, 63);
+
+}
+.box {
+    padding: 40px;
+    background: black;
+    display: block;
+    height: 33vh;
+    width: 33vw;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%, -50%);
+
+}
+h1 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+#username {
+    display: block;
+    color: aliceblue;
+    background: black;
+    height: 45px;
+    width: 200px;
+    border: 2px rgb(13, 114, 197) solid;
+    border-radius: 20px;
+    text-align: center;
+
+    margin: 20px auto;
+}
+#password {
+    color: aliceblue;
+    background: black;
+    height: 45px;
+    width: 200px;
+    border: 2px rgb(13, 114, 197) solid;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+.submit {
+    color: aliceblue;
+    background: black;
+    height: 45px;
+    width: 100px;
+    border: 2px rgb(26, 196, 111) solid;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+}
+#username:hover {
+    border: 2px rgb(26, 196, 111) solid;
+    width: 280px;
+    transition: 0.5s;
+}
+#password:hover {
+    border: 2px rgb(26, 196, 111) solid;
+    width: 280px;
+    transition: 0.5s;
+}
+.submit:hover {
+    background: rgb(26, 196, 111);
+}
